@@ -1,0 +1,35 @@
+/* content */
+body {
+	background-color: #171717;
+	color:white;
+}
+.content-area {
+	width:90%;
+	margin:4%;
+	padding:1%;
+}
+/* header */
+.header {
+	width:100%;
+	float:left;
+	text-align: center;
+	border:solid 2px #A0A0A0;
+	background-color: #424242;
+	margin-bottom: 30px;
+}
+/* command line */
+.command-line {
+	display: flex;
+	float: left;
+	width:100%;
+}
+.command-line #cli-field-label {
+	flex-basis: auto;
+}
+.command-line #cli-field {
+	background-color: #171717;
+	color: white;
+	border: none;
+	margin:0px 5px;
+	flex-basis:100%;
+}
